@@ -1,5 +1,4 @@
-var Encore              = require('@symfony/webpack-encore');
-// const {VueLoaderPlugin} = require('vue-loader');
+var Encore = require('@symfony/webpack-encore');
 
 Encore
 // directory where compiled assets will be stored
@@ -31,12 +30,10 @@ Encore
     //.enableTypeScriptLoader()
 
     // uncomment if you use Sass/SCSS files
-    //.enableSassLoader()
+    // .enableSassLoader()
 
     // uncomment if you're having problems with a jQuery plugin
     //.autoProvidejQuery()
-
-    // .addPlugin(new VueLoaderPlugin())
 
     .enableBuildNotifications()
     .enableVueLoader()
